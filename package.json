@@ -1,0 +1,31 @@
+{
+  "name": "js-fundamental",
+  "version": "1.0.0",
+  "description": "How much you know about JS",
+  "main": "index.js",
+  "repository": "https://github.com/skykeeper0/js-fundamental.git",
+  "author": {
+    "name": "skykeeper0",
+    "email": "<trungdinh0429@gmail.com>"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "jest": {
+    "roots": [
+      "test"
+    ]
+  },
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.1",
+    "eslint": "^4.8.0",
+    "eslint-config-airbnb": "^16.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "jest": "^21.2.1"
+  }
+}
